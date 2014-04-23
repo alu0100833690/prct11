@@ -1,0 +1,162 @@
+\documentclass{beamer}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\newtheorem{definicion}{Definición}
+\newtheorem{ejemplo}{Ejemplo}
+
+\title[Presentación beamer]{Presentación sobre $\pi$ usando \textsc{beamer}}
+\author[C.Martín]{Carmen laura Martín González}
+\date[23-04-2014]{23 de abril de 2014}
+
+\usetheme{Madrid}
+
+\begin{document}
+
+\begin{frame}
+
+  \includegraphics[width=0.15\textwidth]{Imagenes/ullesc}
+  \hspace*{7.0cm}
+  \includegraphics[width=0.16\textwidth]{Imagenes/fmatesc}
+  \titlepage
+
+  \begin{small}
+    \begin{center}
+     Facultad de Matemáticas \\
+     Universidad de La Laguna
+    \end{center}
+  \end{small}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Indice}
+\tableofcontents[pausesections]
+\end{frame}
+
+\section{Mi primera sección}
+\begin{frame}
+\frametitle{Mi primera sección}
+
+\begin{definicion}
+El número $\pi$ es uno de los pocos conceptos en las matemáticas,
+cuya mención evoca una respuesta de reconocimiento y el interés
+en aquellos que no se traten profesionalmente con el tema. Ha
+sido una parte de la cultura humana y la imaginación, estudiado
+durante más de veinticinco siglos.
+
+El número $\pi$ se define como la razón entre la longitud de una
+circunferencia y su diámetro. Este no es un número exacto sino
+que es de los llamados irracionales \footnote{Los números irracionales tienen como definición que son números que poseen infinitas cifras decimales no periódicas, que por lo tanto no pueden ser expresados como fracciones.}. Se emplea frecuentemente en 
+matemáticas, física e ingeniería.
+\end{definicion}
+
+\end{frame}
+
+\section{Mi segunda sección}
+\begin{frame}
+\frametitle{Mi segunda sección}
+\begin{block}{Algunas curiosidades sobre el número $\pi$}
+\begin{itemize}
+\item 
+    En distintas culturas, china, egipcia, europea, india, 
+    etc., se trato de obtener mejores aproximaciones de $\pi$ 
+    por ser de aplicación en campos tan distintos como la 
+    astronomía o la construcción. \pause
+\item 
+    Muchos de los intentos de evaluar $\pi$ en la antigüedad 
+    utilizaban el método de calcular el perímetro de 
+    polígonos inscritos y circunscritos a circunferencias. \pause
+\item
+    En 1706, el inglés William Jones fue el primero en 
+    utilizar el símbolo griego $\pi$ para denotar la relación 
+    entre la circunferencia y su diámetro. Euler en su obra 
+    "Introducción al cálculo infinitesimal", publicada en 
+    1748, le dio el espaldarazo definitivo. \pause
+\item
+    Ferdinand Lindemann(1852-1939) demostró que Pi es un número 
+    trascendental. Esto significa entre otras cosas que el 
+    problema de la cuadratura del círculo no tiene solución. 
+    Pese a ello todavía se sigue intentando.
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+\section{Mi tercera sección}
+\begin{frame}
+\frametitle{Mi tercera sección}
+
+\begin{block}{Algunas curiosidades sobre el número $\pi$}
+
+\begin{tabular}{lrc}
+ Matemático o lugar & Año & Valor\\
+ \hline
+ La Biblia &     & 3\\
+ \hline
+ Papiro de Ahmes(Egipto) & 1650 a.C & 3.16\\
+ \hline
+ Tablilla de Susa(Babilonia) & 1600 a.C & 3.125\\
+ \hline
+ Bandhayana(India) & 500 a.C & 3.09\\
+ \hline
+ Arquímedes de Siracusa & 287-212 a.C & Entre 223/71 y 220/70 \\
+ \hline
+ Liu Hui(China) & 260 a.C & 3.1416\\
+ \hline
+ Al-Kashia(Persia) & 1429 a.C & 3.1415926535897932\\
+ \hline
+ Franciscus Vieta (Francia) & 1540-1603 a.C & 3.1415926536
+ \hline
+\end{tabular}
+
+\end{block}
+
+\end{frame}
+
+\section{Mi cuarta sección}
+\begin{frame}
+\frametitle{Mi tercera sección}
+
+\begin{block}{Cuestiones abiertas sobre $\pi$}
+
+\begin{itemize}
+\item
+    Cada uno de los dígitos decimales 0, 1, 2, 3, 4, 5, 6, 7, 
+    8 y 9, ¿tiene una aparición infinita en los decimales de $\pi$? \pause
+\item
+    La denominada cuestión de Brouwer: en la expansión decimal 
+    de $\pi$, ¿existe alguna posición donde exista una sucesión de 
+    mil ceros consecutivos? \pause
+\item
+    ¿Es $\pi$ simplemente normal en base 10? Es decir, ¿tiene cada 
+    uno de los diez dígitos del sistema decimal la misma 
+    probabilidad de aparición en una expansión decimal? \pause
+\item
+   No se sabe si $\pi$+e, $\pi$/e, ln($\pi$) son irracionales. Se sabe que 
+   no son raíces de polinomios de grado inferior a nueve y con 
+   coeficientes enteros del orden 109.48 49
+\end{itemize}
+
+\end{block}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Bibliografía}
+\begin{thebibliography}
+\beamertermplateboolbibitems
+\bibitem[Guía Docente, 2013]{guia}
+ {\small $http://ciencianet.com/pi.html$}
+\beamertermplateboolbibitems
+\bibitem[Guía Docente, 2013]{guia}
+ {\small $http://es.wikipedia.org$}
+\beamertermplateboolbibitems
+\bibitem[Guía Docente, 2013]{guia}
+ {\small $http://campusvirtual.ull.es/1314/pluginfile.php/197727/mod_resource/content/2/p11.pdf$}
+
+\end{thebibliography}
+\end{frame}
+
+\end{document}
